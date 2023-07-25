@@ -47,17 +47,17 @@
     <main class="container mx-auto">
         <!-- hero section -->
         <section>
-            <div class="hero lg:min-h-[calc(100vh-88px)]" style="background-image: url(./images/banner.png);">
-                <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero lg:min-h-[calc(100vh-88px)] bg-[linear-gradient(to_right,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('./images/banner.png')]">
+                <!-- <div class="bg-gradient-to-r from-[#111] to-[#111111] opacity-50"></div> -->
                 <div class="hero-content text-center text-neutral-content">
-                    <div class="max-w-2xl">
+                    <div class="max-w-2xl relative">
                         <h1 class="mb-5 text-7xl font-extrabold font-Garamond lg:w-[668px] ">We Provide Effective
                             <br>Legal Solutions
                         </h1>
                         <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
                             have suffered alteration in some form, by injected humour.</p>
                         <div class="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-6">
-                            <input class="py-3 pr-32 pl-5 rounded-lg" type="search" name="" id=""
+                            <input class="py-3 pr-52 pl-5 rounded-lg" type="search" name="" id=""
                                 placeholder="Search your services">
                             <button
                                 class="py-3 px-9 bg-[#B68C5A] border-0 rounded-none font-bold font-poppins">Search</button>
@@ -144,7 +144,7 @@
             <!-- carousel -->
             <div class="carousel w-full">
                 <div id="slide1" class=" carousel-item relative w-full">
-                    <img src="/images/banner.png" class="w-full bg-[#111111cc] opacity-100" />
+                    <div class="bg-[linear-gradient(to_right,rgba(34,86,210,1),rgba(0,0,0,0.2)),url('./images/banner.png')"></div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
@@ -235,7 +235,7 @@
                 <a class="link link-hover">Branding</a>
                 <a class="link link-hover">Design</a>
                 <a class="link link-hover">Marketing</a>
-                <a class="link link-hover">Advertisement</a>
+                <a class="link link-hover">Advertisement</a>z
             </div>
             <div>
                 <span class=" font-Garamond text-2xl font-extrabold mb-11">Usefull Link</span>
@@ -258,7 +258,8 @@
                     </label>
                     <div class="relative">
                         <input type="text" placeholder="email address" class="input input-bordered w-full pr-16" />
-                        <button class="btn btn-primary px-5 border-0 text-white absolute top-0 right-0 bg-[#B68C5A]"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        <button class="btn btn-primary px-5 border-0 text-white absolute top-0 right-0 bg-[#B68C5A]"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></button>
                     </div>
                 </div>
             </div>
